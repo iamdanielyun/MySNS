@@ -1,0 +1,33 @@
+a {
+  text-decoration: none; /* Removes underline */
+  color: rgb(43, 47, 171);
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+  margin-top: 5%;
+  max-width: 60%;
+  min-height: 100vh;  
+}
+
+.feed-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;  
+  gap: 4vh;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -40%;
+  width: 100%;
+  gap: 4vh;
+}
